@@ -17,7 +17,7 @@ body {
 
 /* Responsive box */
 .responsive-box {
-	background-color: #4caf50;
+	background-color: #ba6d9f;
 	color: white;
 	padding: 20px;
 	text-align: center;
@@ -36,7 +36,7 @@ body {
 /* Media query för mycket små skärmar */
 @media (max-width: 480px) {
 	.responsive-box {
-		background-color: #ff5722; /* Ändrar bakgrundsfärgen igen */
+		background-color: #f9a48a; /* Ändrar bakgrundsfärgen igen */
 		width: 100%; /* Gör boxen fullbredd */
 	}
 }
