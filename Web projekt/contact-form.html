@@ -3,27 +3,21 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Kontaktformulär</title>
+		<title>Document</title>
 		<style>
-			/* flytta denna CSS till en extern fil om det behövs */
+			/* lyft ut denna css till ett external sheet */
 			.contact-form-section {
 				display: flex;
 				flex-direction: column;
-				align-items: center;
-				margin: 20px;
 			}
-
 			.input-holder {
 				display: flex;
 				flex-direction: column;
-				padding: 10px;
-				width: 300px;
+				padding: 20px;
 			}
-
 			.input-holder label {
-				padding-bottom: 10px;
+				padding-bottom: 20px;
 			}
-
 			.hidden-element {
 				display: none;
 			}
@@ -42,11 +36,11 @@
 			<form id="contact-form" method="GET">
 				<div class="input-holder">
 					<label for="firstName">Name:</label>
-					<input id="firstName" name="firstName" type="text" required />
+					<input name="firstName" type="text" required />
 				</div>
 				<div class="input-holder">
 					<label for="email">E-post:</label>
-					<input id="email" name="email" type="email" required />
+					<input name="email" type="email" required />
 				</div>
 				<div class="input-holder">
 					<label for="phone">Telefonnummer:</label>
@@ -59,7 +53,6 @@
 				Tack för ditt meddelande!
 			</h2>
 		</section>
-
-		<script src="contact-form.js"></script>
 	</body>
+	<script src="contact-form.js"></script>
 </html>
