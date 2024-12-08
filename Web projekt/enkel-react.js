@@ -1,4 +1,4 @@
-// Här är en React-komponent
+/ Här är en React-komponent
 function Header() {
     return (
       <header>
