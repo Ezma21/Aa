@@ -1,0 +1,53 @@
+/* CSS-reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /* Testa att byt ut mot content-box */
+}
+
+/* Grundläggande styling */
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #f9f9f9;
+	padding: 20px;
+}
+
+/* Parent-box styling */
+.parent {
+	width: 300px; /* Bredd på parent-elementet */
+	height: 200px; /* Höjd på parent-elementet */
+	background-color: #4caf50;
+	padding: 20px; /* Inre utrymme runt innehållet */
+	border: 10px solid #333; /* Ram runt parent-elementet */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+	color: white;
+	position: relative; /* För demonstration av offset */
+}
+
+/* Child-box styling */
+.child {
+	width: 100%; /* Full bredd relativt parent */
+	height: 100%; /* Full höjd relativt parent */
+	background-color: #ffc107;
+	padding: 40px; /* Inre utrymme runt innehållet */
+	border: 15px solid #000; /* Ram runt child-elementet */
+	text-align: center;
+	color: black;
+	line-height: 1.5;
+}
+
+/* Instruktioner */
+.instructions {
+	margin-top: 20px;
+	font-size: 1rem;
+	color: #555;
+	text-align: center;
+}

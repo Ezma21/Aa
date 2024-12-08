@@ -1,0 +1,42 @@
+/* CSS-reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Grundläggande styling */
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f4f4f4;
+}
+
+/* Responsive box */
+.responsive-box {
+	background-color: #4caf50;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	width: 50%; /* Initial bredd */
+	transition: background-color 0.3s ease;
+}
+
+/* Media query för mindre skärmar */
+@media (max-width: 768px) {
+	.responsive-box {
+		background-color: #ffc107; /* Ändrar bakgrundsfärgen */
+		width: 80%; /* Ökar bredden */
+	}
+}
+
+/* Media query för mycket små skärmar */
+@media (max-width: 480px) {
+	.responsive-box {
+		background-color: #ff5722; /* Ändrar bakgrundsfärgen igen */
+		width: 100%; /* Gör boxen fullbredd */
+	}
+}
