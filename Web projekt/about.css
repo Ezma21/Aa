@@ -1,0 +1,74 @@
+/* About page styles */
+
+/* Profile Image */
+.profile-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+  
+  /* Main content styling */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  /* Section for the about me content */
+  section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  /* Image inside the section */
+  section img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer styles  */
+  footer {
+    background-color: #ad516a;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer small {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .profile-photo {
+      width: 200px;
+      height: 200px;
+    }
+  
+    section img {
+      width: 90%;
+    }
+  
+    main {
+      width: 100%;
+      padding: 40px;
+    }
+  }
+  
